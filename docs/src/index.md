@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
+heroImage: https://symbols-ui.obi.obianom.com/logo.png
 tagline: Create and Insert Symbols and Equations to R documents
 actionText: Quick Start →
 actionLink: /guide/
