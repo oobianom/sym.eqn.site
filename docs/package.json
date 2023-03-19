@@ -1,0 +1,19 @@
+{
+  "name": "Symbols and Equations in R",
+  "version": "0.0.1",
+  "description": "Create and Insert Symbols and Equations to R documents",
+  "main": "index.js",
+  "authors": {
+    "name": "Obi Obianom",
+    "email": "fabber4christ@gmail.com"
+  },
+  "repository": "https://github.com/oobianom/sym.eqn.site/Symbols and Equations in R",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
