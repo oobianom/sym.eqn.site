@@ -10,6 +10,7 @@
   "repository": "https://github.com/oobianom/sym.eqn.site/Symbols and Equations in R",
   "scripts": {
     "dev": "vuepress dev src",
+    "dev2": "vuepress dev src --host localhost",
     "build": "vuepress build src"
   },
   "license": "MIT",
