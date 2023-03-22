@@ -2,10 +2,10 @@
 home: true
 heroImage: https://symbols-ui.obi.obianom.com/logo.png
 tagline: Create and Insert Symbols and Equations to R documents
-actionText: Quick Start →
+actionText: Get Started →
 actionLink: /guide/
 features:
-- title: Feature 1 Title
+- title: About
   details: Feature 1 Description
 - title: Feature 2 Title
   details: Feature 2 Description
