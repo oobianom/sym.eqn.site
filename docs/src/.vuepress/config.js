@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Vuepress Docs Boilerplate',
+  title: 'symbol.equation.gpt',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -34,7 +34,7 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
-        text: 'Guide',
+        text: 'Guides',
         link: '/guide/',
       },
       {
@@ -54,6 +54,7 @@ module.exports = {
           children: [
             '',
             'using-vue',
+		'example',
           ]
         }
       ],
