@@ -38,12 +38,12 @@ module.exports = {
         link: '/guide/',
       },
       {
-        text: 'Config',
+        text: 'Functions',
         link: '/config/'
       },
       {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
+        text: 'About',
+        link: 'https://github.com/oobianom/symbol.equation.gpt'
       }
     ],
     sidebar: {
