@@ -4,29 +4,45 @@ sidebar: auto
 
 # Functions
 
-## envir.prep()
+## envir.prep
 
+- Arguments: `none`
 - Description: `Initialize and load library path for package`
 - Return type: `NULL`
 - Examples: `if(interactive()){
              envir.prep()
              }`
 
-## insert.Symbol.Raw()
+## insert.Symbol.Raw
 
-- Description: `Initialize and load library path for package`
-- Return type: `NULL`
+- Arguments" `symbolid, type = letters[1:4]`
+- Description: `Add selected symbol to page`
+- Return type: `Inclusion of symbol on page`
 - Examples: `if(interactive()){
-             envir.prep()
+             insert.Symbol.Raw("sample copied")
+             insert.Symbol.Raw("rpkg.net","a")
              }`
 
 
-## envir.prep()
+## symbol.equation.ui
 
-- Description: `Initialize and load library path for package`
-- Return type: `NULL`
+- Arguments" `symbolid, type = letters[1:4]`
+- Description: `Add selected symbol to page`
+- Return type: `Inclusion of symbol on page`
 - Examples: `if(interactive()){
-             envir.prep()
+             insert.Symbol.Raw("sample copied")
+             insert.Symbol.Raw("rpkg.net","a")
+             }`
+
+
+## symbol.equation.ui2
+
+- Arguments" `symbolid, type = letters[1:4]`
+- Description: `Add selected symbol to page`
+- Return type: `Inclusion of symbol on page`
+- Examples: `if(interactive()){
+             insert.Symbol.Raw("sample copied")
+             insert.Symbol.Raw("rpkg.net","a")
              }`
 
 
