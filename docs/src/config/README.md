@@ -2,14 +2,31 @@
 sidebar: auto
 ---
 
-# Config
+# Functions
 
-## foo
+## envir.prep()
 
-- Type: `string`
-- Default: `/`
+- Description: `Initialize and load library path for package`
+- Return type: `NULL`
+- Examples: `if(interactive()){
+             envir.prep()
+             }`
 
-## bar
+## insert.Symbol.Raw()
 
-- Type: `string`
-- Default: `/`
+- Description: `Initialize and load library path for package`
+- Return type: `NULL`
+- Examples: `if(interactive()){
+             envir.prep()
+             }`
+
+
+## envir.prep()
+
+- Description: `Initialize and load library path for package`
+- Return type: `NULL`
+- Examples: `if(interactive()){
+             envir.prep()
+             }`
+
+
