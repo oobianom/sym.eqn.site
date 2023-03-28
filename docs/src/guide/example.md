@@ -1,4 +1,4 @@
-# Configuration
+# How to use
 
 ## Config File
 
