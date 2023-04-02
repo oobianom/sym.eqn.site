@@ -1,37 +1,38 @@
-# Symbols
+# Installation
 
-## Browser API Access Restrictions
+## Install from CRAN
 
-<h3>
-Welcome to the official site of symbol.equation.gpt R package. The website is still being developed...
-</h3>
+With R installed on your Windows or UNIX operating system, install the symbol.equation.gpt package from the Comprehensive R Archive Network from the console as shown below
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LYM5n1Soo-g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-<br>
-<br>
-<h5>How to launch app in Viewer after installation in RStudio</h5>
-<img src="https://symbols-ui.obi.obianom.com/vids/SYMBOLS.EQUATIONS.OPEN1.png" width="850">
-
-<br>
-<br>
-<h5>How to launch app in Modal after installation in RStudio</h5>
-<img src="https://symbols-ui.obi.obianom.com/vids/SYMBOLS.EQUATIONS.OPEN2.png"  width="850">
+```r
+install.packages("symbol.equation.gpt")
+```
 
 
-<br><br>
+## Install from GitHub
 
-<h5>How to Use app in Viewer after launch in RStudio</h5>
-<img src="https://symbols-ui.obi.obianom.com/vids/SYMBOLS.EQUATIONS.OPEN2.gif"  width="850">
+To install from GitHub, you need to first install the devtools R package. This package provides functions for installing directly from GitHub
 
-<br><br>
-<h5>How to Use app in Viewer after launch in RStudio 2</h5>
-<img src="https://symbols-ui.obi.obianom.com/vids/SYMBOLS.EQUATIONS.OPEN3.gif"  width="850">
+```r
+install.packages("devtools")
+library("devtools")
+install_github("oobianom/symbol.equation.gpt")
+```
 
-<br><br>
+## Install required dependencies
 
-<h5>Screenshot for equations tab in RStudio</h5>
-<img src="https://symbols-ui.obi.obianom.com/vids/SYMBOLS.EQUATIONS.OPEN3.png"  width="1650">
+Know that various R packages are required in order to efficiently use and run the symbol.equation.gpt R package. Below are the three most important packages
 
-<br><br>
-## Food
+```r
+install.packages("r2symbols")
+install.packages("nextGenShinyApps")
+install.packages("shiny")
+```
+
+## Loading package after installation (optional)
+
+You may load the package after installation. This is optional because the package is intended to run as an RStudio addins
+
+```r
+library("symbol.equation.gpt")
+```

@@ -1,5 +1,73 @@
 # How to use
 
+## Launch within RStudio
+
+### Launch as a Modal pane
+
+ [x] Go to RStudio
+ 
+ [x] Click on Addins dropdown
+ 
+ [x] Click on 'symbols and equations (modal)'
+ 
+Below is a visual example ...
+ 
+<img src="https://symbols-ui.obi.obianom.com/vids/SYMBOLS.EQUATIONS.OPEN3.gif"  width="850">
+
+
+### Launch as a Modal pane
+
+ [x] Go to RStudio
+ 
+ [x] Click on Addins dropdown
+ 
+ [x] Click on 'symbols and equations (viewer)'
+ 
+Below is a visual example ...
+ 
+<img src="https://symbols-ui.obi.obianom.com/vids/SYMBOLS.EQUATIONS.OPEN2.gif"  width="850">
+
+
+## Launch from R console
+
+```r
+library("symbol.equation.gpt")
+# Launch 2: from console
+symbol.equation.ui()
+# Launch 3: from console
+symbol.equation.ui2()
+```
+
+
+
+<h5>How to launch app in Viewer after installation in RStudio</h5>
+<img src="https://symbols-ui.obi.obianom.com/vids/SYMBOLS.EQUATIONS.OPEN1.png" width="850">
+
+<br>
+<br>
+<h5>How to launch app in Modal after installation in RStudio</h5>
+<img src="https://symbols-ui.obi.obianom.com/vids/SYMBOLS.EQUATIONS.OPEN2.png"  width="850">
+
+
+<br><br>
+
+<h5>How to Use app in Viewer after launch in RStudio</h5>
+<img src="https://symbols-ui.obi.obianom.com/vids/SYMBOLS.EQUATIONS.OPEN2.gif"  width="850">
+
+<br><br>
+<h5>How to Use app in Viewer after launch in RStudio 2</h5>
+
+
+<br><br>
+
+<h5>Screenshot for equations tab in RStudio</h5>
+<img src="https://symbols-ui.obi.obianom.com/vids/SYMBOLS.EQUATIONS.OPEN3.png"  width="1650">
+
+<br><br>
+## Food
+
+
+
 ## Config File
 
 Without any configuration, the page is pretty minimal, and the user has no way to navigate around the site. To customize your site, let’s first create a `.vuepress` directory inside your docs directory. This is where all VuePress-specific files will be placed. Your project structure is probably like this:
@@ -25,9 +93,7 @@ module.exports = {
 ![](https://obi)
 __obi__
 ```
-```r
-install.packages("symbol.equation.gpt")
-```
+
 
 If you’ve got the dev server running, you should see the page now has a header with the title and a search box. VuePress comes with built-in headers-based search: it automatically builds a simple search index from the title, `h2`, and `h3` headers on all pages.
 
