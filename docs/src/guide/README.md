@@ -6,6 +6,6 @@ There are a number of cool functionalities within this package that allows one t
 
 Aside from this, there is an equation tab that allows the user to build an equation. This panel allows the user to download the equation and user it within the document. The equation may also be directly converted to LaTeX and used within either an Rmarkdown or Shiny application.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LYM5n1Soo-g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=cm6FDzO2uqI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 More information will be added, be patient. This package is new and the website is still being developed.
