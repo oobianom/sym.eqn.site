@@ -4,11 +4,11 @@
 
 ### Launch as a Modal pane
 
- [x] Go to RStudio
+ ☑ Go to RStudio
  
- [x] Click on Addins dropdown
+ ☑ Click on Addins dropdown
  
- [x] Click on 'symbols and equations (modal)'
+ ☑ Click on 'symbols and equations (modal)'
  
 Below is a visual example ...
  
@@ -17,11 +17,11 @@ Below is a visual example ...
 
 ### Launch as a Modal pane
 
- [x] Go to RStudio
+ ☑ Go to RStudio
  
- [x] Click on Addins dropdown
+ ☑ Click on Addins dropdown
  
- [x] Click on 'symbols and equations (viewer)'
+ ☑ Click on 'symbols and equations (viewer)'
  
 Below is a visual example ...
  
@@ -30,6 +30,7 @@ Below is a visual example ...
 ## Launch from R console
 
 ```r
+# load library
 library("symbol.equation.gpt")
 # Launch 2: from console
 symbol.equation.ui()
