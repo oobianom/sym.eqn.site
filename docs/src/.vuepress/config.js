@@ -53,8 +53,8 @@ module.exports = {
           collapsable: false,
           children: [
             '',
-            'using-vue',
-		'example',
+            'install_r_package',
+		'launch_r_package',
             'equations',
           ]
         }

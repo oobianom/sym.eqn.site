@@ -9,3 +9,5 @@ Aside from this, there is an equation tab that allows the user to build an equat
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cm6FDzO2uqI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 More information will be added, be patient. This package is new and the website is still being developed.
+
+![symbol.equation.gpt pkg](https://rpkg.net/rpkg/symbol.equation.gpt/purple)
